@@ -3,7 +3,11 @@ import styles from './menu.module.css'
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <section className={styles.container} >
+      <h2>("What's hot")</h2>
+      <h1>Most Popular</h1>
+      <div className={styles}></div>
+    </section>
   )
 }
 
