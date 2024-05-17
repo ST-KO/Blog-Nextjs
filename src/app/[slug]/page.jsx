@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './singplePage.module.css';
 import Menu from '@/components/Menu/Menu';
 import Image from 'next/image';
+import Comment from '@/components/comments/Comment';
 
 const SinglePage = () => {
   return (
@@ -24,7 +25,34 @@ const SinglePage = () => {
             </div>
         </div>
         <div className={styles.content}>
-            <div className={styles.post}></div>
+            <div className={styles.post}>
+                <div className={styles.desc}>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat maiores blanditiis, adipisci facilis eum atque iste ab est aspernatur, 
+                    ad, nesciunt delectus sequi modi illum officia accusantium ratione? Incidunt, 
+                    possimus!
+                </p>
+                <h2>
+                    Lorem ipsum dolor sit amet 
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat maiores blanditiis, adipisci facilis eum atque iste ab est aspernatur, 
+                    ad, nesciunt delectus sequi modi illum officia accusantium ratione? Incidunt, 
+                    possimus!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat maiores blanditiis, adipisci facilis eum atque iste ab est aspernatur, 
+                    ad, nesciunt delectus sequi modi illum officia accusantium ratione? Incidunt, 
+                    possimus!
+                </p>
+                </div>
+                <div className={styles.comment}>
+                    <Comment />
+                </div>   
+            </div>
             <Menu />
         </div>
     </section>
