@@ -3,8 +3,11 @@ import styles from './pagination.module.css';
 
 const Pagination = () => {
   return (
-    <div>Pagination</div>
-  )
-}
+    <section className={styles.container}>
+      <button className={styles.button}>Previous</button>
+      <button className={styles.button}>Next</button>
+    </section >
+  );
+};
 
-export default Pagination
+export default Pagination;
