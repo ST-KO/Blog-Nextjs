@@ -2,6 +2,11 @@
     cursor: pointer;
 }
 
+.container{
+    display: flex;
+    gap: 10px;
+}
+
 .burger{
     width: 20px;
     height: 16px;
@@ -31,6 +36,7 @@
     justify-content: center;
     gap: 50px;
     font-size: 36px;
+    z-index: 999;
 }
 
 @media screen and (max-width: 640px) {
